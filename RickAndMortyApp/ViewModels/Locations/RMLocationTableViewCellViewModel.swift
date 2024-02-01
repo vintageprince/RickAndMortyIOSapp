@@ -17,7 +17,7 @@ struct RMLocationTableViewCellViewModel: Hashable, Equatable {
     
     public var name: String { return location.name }
     
-    public var type: String { return location.type }
+    public var type: String { return "Type: "+location.type }
     
     public var dimension: String { return location.dimension }
     
